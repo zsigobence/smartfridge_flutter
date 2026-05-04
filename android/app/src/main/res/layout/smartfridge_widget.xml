@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F9F5"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="SmartFridge"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#1A7A45" />
+
+    <TextView
+        android:id="@+id/widget_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/widget_title"
+        android:layout_marginTop="4dp"
+        android:background="#CCDDCC"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/widget_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_divider"
+        android:layout_marginTop="10dp"
+        android:text="Nincs sürgős termék"
+        android:textSize="16sp"
+        android:textColor="#888888"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_divider"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+name: smartfridge
+description: "SmartFridge Sync - Háztartási élelmiszer nyomkövető alkalmazás"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+  firebase_messaging: ^16.2.0
+  google_sign_in: ^7.2.0
+
+  # Vonalkód szkennelés
+  mobile_scanner: ^7.2.0
+
+  # Képek
+  cached_network_image: ^3.4.1
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # HTTP / API
+  http: ^1.2.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Segédeszközök
+  intl: ^0.20.2
+  uuid: ^4.5.0
+  flutter_local_notifications: ^21.0.0
+  flutter_timezone: ^5.0.2
+  timezone: ^0.11.0
+  shared_preferences: ^2.3.0
+  qr_flutter: ^4.1.0
+  home_widget: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,28 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smartfridge-292e1",
+          "appId": "1:330019118498:android:06042eb196d42b72d726fb",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smartfridge-292e1",
+          "configurations": {
+            "android": "1:330019118498:android:06042eb196d42b72d726fb",
+            "ios": "1:330019118498:ios:b83cbbc6c5720ed1d726fb",
+            "macos": "1:330019118498:ios:b83cbbc6c5720ed1d726fb",
+            "web": "1:330019118498:web:39036a6cfea0b9add726fb",
+            "windows": "1:330019118498:web:10c5512b74a66f1fd726fb"
+          }
+        }
+      }
+    }
+  }
+}
