@@ -23,7 +23,7 @@ Többfelhasználós háztartási élelmiszer-nyilvántartó alkalmazás Flutter 
 
 ## Fejlesztési módszertan — AI-driven programming
 
-Az alkalmazás teljes egészében **AI-vezérelt fejlesztési módszertannal** készült, a [Claude Code](https://claude.ai/code) CLI eszköz segítségével, **Antigravity üzemmódban**.
+Az alkalmazás teljes egészében **AI-vezérelt fejlesztési módszertannal** készült, a [Claude Code](https://claude.ai/code) CLI eszköz segítségével, **Antigravityben**.
 
 A folyamat a következőképpen zajlott:
 
