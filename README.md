@@ -31,7 +31,7 @@ A folyamat a következőképpen zajlott:
 
 2. **Fejlesztési fázis:** A tényleges kódolás a két tervdokumentum alapján haladt — minden prompt hivatkozott az aktuális mérföldkőre, az AI pedig az előre meghatározott konvenciók szerint generálta a kódot.
 
-3. **Iteratív javítás:** A fejlesztés során előkerülő hibákat és edge case-eket szintén promptokon keresztül kezeltük.
+3. **Iteratív javítás:** A fejlesztési folyamat során aktív szerepet vállaltam a hibakeresésben és a kód refaktorálásában. Az AI-generált alapokat saját manuális kódmódosításaimmal egészítettem ki, különös tekintettel a felhasználói élményre és a technikai stabilitásra.
 
 A teljes prompt-történet megtalálható: **[`prompts_log.md`](prompts_log.md)**
 
